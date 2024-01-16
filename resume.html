@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="stylesheet" href="resume.css"> <!-- Update the stylesheet link accordingly -->
+  <link rel="stylesheet" href="https://fontawesome.com/v4/icon/adjust">
+
+</head>
+
+<body class="light-mode">
+
+  <header>
+    <h1>November Esteron Nicomedez</h1>
+    <address>324 Corner Limos St. Calaocan Manaoag Pangasinan</address>
+    <address>Mobile Number: 09690997064</address>
+    <address>Email Address: november16nn@gmail.com</address>
+    <hr>
+  </header>
+
+  <section id="resumeContent">
+    <h2>Educational Attainment</h2>
+    <h3>Undergraduate</h3>
+    <p>Bachelor of Science in Information Technology - Major in Web Technology</p>
+    <p>University of Cordilleras</p>
+    <p>Governor Pack Road, Baguio City</p>
+    <p>Expected date of Graduation: August 2024</p>
+
+    <h3>Senior High School</h3>
+    <p>Colegio de San Juan de Letran - Manaoag</p>
+    <p>Castro St. Poblacion Manaoag Pangasinan</p>
+    <p>2021</p>
+
+    <h3>Junior High School</h3>
+    <p>Colegio de San Juan de Letran - Manaoag</p>
+    <p>Castro St. Poblacion Manaoag Pangasinan</p>
+    <p>2019</p>
+
+    <h2>Skills and Qualifications</h2>
+    <ul>
+      <li>Expert in Photography</li>
+      <li>Skillful in Adobe Photoshop</li>
+      <li>Proficient in conducting Knights of the Altar Leadership - Training</li>
+      <li>Good at playing drums and sepaktakraw</li>
+    </ul>
+
+    <h2>Seminars and Trainings Attended</h2>
+    <ul>
+      <li>2017 FedEx/ JA ITC - Young Entrepreneur Achievement</li>
+      <li>2019 Leadership Seminar for Supreme Student Council (August 17, 2019)</li>
+      <li>2019 Student Development Seminar (September 20, 2019)</li>
+    </ul>
+
+    <h2>Awards and Certificates</h2>
+    <ul>
+      <li>St. Lorenzo Ruiz Mission Award 2015 - 2021</li>
+      <li>St Vincent Ferrer Punctuality and Perfect in Attendance 2015 - 2021</li>
+      <li>St Vincent Liem de la Paz Loyalty Award 2015 -2021</li>
+      <li>St Catherine of Sienna Excellence Award with Honors 2019 - 2021</li>
+      <li>Knights of the Altar</li>
+      <li>Best in Research Paper 2019</li>
+      <li>Photography Contest</li>
+    </ul>
+
+    <h2>Leadership and Membership</h2>
+    <ul>
+      <li>Knights of the Altar Server - April 12, 2012</li>
+      <li>Press Information Officer (Filipino) Supreme Student Council - August 2019</li>
+    </ul>
+
+    <h2>Personal Information</h2>
+    <p>Date of Birth: November 16, 2003</p>
+    <p>Place of Birth: Dagupan City</p>
+    <p>Age: 20 years old</p>
+    <p>Gender: Male</p>
+    <p>Civil Status: Single</p>
+    <p>Citizenship: Filipino</p>
+    <p>Father's Name: Jose B. Nicomedez, Jr</p>
+    <p>Mother's Maiden Name: Minever Montefalco Esteron</p>
+    <p>Height: 5'6"</p>
+    <p>Weight: 79kgs</p>
+    <p>Language/Dialect: English, Filipino</p>
+  </section>
+
+  <button id="knowMoreBtn" onclick="revealResume()">Know More</button>
+  <button id="toggleDarkModeBtn" onclick="toggleDarkMode()">
+    <i class="fa fa-adjust" aria-hidden="true"></i>
+  </button>
+  
+  <script>
+    function revealResume() {
+      document.getElementById("resumeContent").style.display = "block";
+      document.getElementById("knowMoreBtn").style.display = "none";
+    }
+
+    function toggleDarkMode() {
+      const body = document.body;
+      body.classList.toggle("dark-mode");
+    }
+  </script>
+</body>
+
+</html>
